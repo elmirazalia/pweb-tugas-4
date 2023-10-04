@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator </title>
     <link rel="stylesheet" href="style.css">
+<style>
+   .calculator-container {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 5px solid #506e4d;
+            border-radius: 10px;
+            background-color: #1f2c21;
+        }
+        </style>
 </head>
 <body>
+    <div class="calculator-container">
     <h1>Calculator </h1>
     <form action="" name="clc">
         <input type="text" name="display" style="width: 370px; height: 60px; background-color: #4c555c;color: white;"><br>
@@ -25,7 +36,8 @@
         <input class="btn" type="button" value="C" onclick="clc.display.value =''" style="background-color:#ff5e00;">
         <input class="btn" type="button" value="=" onclick="clc.display.value =eval(clc.display.value)" style="width: 172px">
         <input class="btn" type="button" value="&#247;" onclick="clc.display.value += '/'" style="background-color: #ff004c;">
-
+    
     </form>
+</div>
 </body>
 </html>
