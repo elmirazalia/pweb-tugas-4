@@ -20,12 +20,12 @@ h1 {
 input {
     width: 75px;
     height: 50px;
-    font-size: 45px;
+    font-size: 2rem;
     border-radius: 10px;
     margin: 10px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    border-style: none;
+    border: none;
 
 }
 
@@ -47,7 +47,7 @@ input {
     flex-direction: column;
     align-items: center; 
     justify-content: center;
-    height: 50vh;
+    height: auto;
 }
 
 
